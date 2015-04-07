@@ -1,0 +1,20 @@
+; Any line below preceeded by semicolon is a comment.  Some optional
+; directives are commented out, but you're welcome to use them by
+; removing the comment.  The directives that are not commented out by
+; default are required for your theme to work correctly.
+
+;----------// Theme Information
+
+  name        = Test
+  description = New test theme
+  module      = cns
+  screenshot  = screenshot.png
+
+;----------// Stylesheets
+
+  css[] = css/test.css
+; css[] = css/test.layout.css
+; ie_stylesheets[screen][lt IE 9][] = css/test-ie.css
+
+; scripts[] = js/test.js
+
